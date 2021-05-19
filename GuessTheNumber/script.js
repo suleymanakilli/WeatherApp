@@ -21,6 +21,10 @@ window.onload = function() {
     initGame()
     document.getElementById("number-submit").addEventListener("click", playGame);
     document.getElementById("restart-game").addEventListener("click", initGame)
+    //document.getElementById("number-submit") number-submit id ' sinde sahip olan elemanı getirir
+    //document.querySelectorAll(".form-group") The querySelectorAll() method returns all elements in the document that matches a specified CSS selector(s), as a static NodeList object.
+    //document.getElementsByTagName("button") button, div , h1 tag örnekleri
+    
 }
 
 /**
